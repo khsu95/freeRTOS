@@ -55,7 +55,7 @@
 #include "aws_clientcredential.h"
 
 /* Strings are published to a topic that has the following path. */
-#define subpubSTRING_TOPIC_PATH           "/string/"
+#define subpubSTRING_TOPIC_PATH           "demo-topic"
 
 /* Unsigned integers are published to a topic that has the following path. */
 #define subpubUINT_TOPIC_PATH             "/uint/"
@@ -77,7 +77,7 @@
 #define subpubIP_ADDRESS_STRING_SIZE      16
 
 /* Unsecure broker details. */
-#define subpubUNSECURE_BROKER_ENDPOINT    "Paste your unsecure MQTT Broker endpoint here."
+#define subpubUNSECURE_BROKER_ENDPOINT  "a2rx24fjryl339-ats.iot.us-east-2.amazonaws.com" 
 /* Replace with the unsecure broker's listening port. */
 #define subpubUNSECURE_BROKER_PORT        443
 

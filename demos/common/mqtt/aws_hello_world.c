@@ -250,7 +250,7 @@ static void prvPublishNextMessage( BaseType_t xMessageNumber )
     /* Create the message that will be published, which is of the form "Hello World n"
      * where n is a monotonically increasing number. Note that snprintf appends
      * terminating null character to the cDataBuffer. */
-    ( void ) snprintf( cDataBuffer, echoMAX_DATA_LENGTH, "Hello World %d", ( int ) xMessageNumber );
+    ( void ) snprintf( cDataBuffer, echoMAX_DATA_LENGTH, "Holla World %d", ( int ) xMessageNumber );
 
     /* Setup the publish parameters. */
     memset( &( xPublishParameters ), 0x00, sizeof( xPublishParameters ) );
