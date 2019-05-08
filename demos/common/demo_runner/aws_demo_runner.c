@@ -40,9 +40,9 @@
 /* extern void vStartGreenGrassDiscoveryTask( void ); */
 extern void vStartMQTTEchoDemo( void );
 /* extern void vStartOTAUpdateDemoTask( void ); */
-/* extern void vStartShadowDemoTasks( void ); */
+ extern void vStartShadowDemoTasks( void ); 
 /* extern void vStartSimpleTCPServerTasks( void ); */
-/* extern void vStartSubpubDemoTasks( void ); */
+ extern void vStartSubpubDemoTasks( void ); 
 /* extern void vStartTCPEchoClientTasks_SeparateTasks( void ); */
 /* extern void vStartTCPEchoClientTasks_SingleTasks( void ); */
 
@@ -57,9 +57,9 @@ void DEMO_RUNNER_RunDemos( void )
     /* vStartGreenGrassDiscoveryTask(); */
     vStartMQTTEchoDemo();
     /* vStartOTAUpdateDemoTask(); */
-    /* vStartShadowDemoTasks(); */
+     vStartShadowDemoTasks(); 
     /* vStartSimpleTCPServerTasks(); */
-    /* vStartSubpubDemoTasks(); */
+     vStartSubpubDemoTasks(); 
     /* vStartTCPEchoClientTasks_SeparateTasks(); */
     /* vStartTCPEchoClientTasks_SingleTasks(); */
 }
